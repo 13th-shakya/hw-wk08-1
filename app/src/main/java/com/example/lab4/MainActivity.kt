@@ -1,5 +1,6 @@
 package com.example.lab4
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
@@ -11,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.lab4.databinding.ActivityMainBinding
 
+@SuppressLint("SetTextI18n")
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 

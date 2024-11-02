@@ -1,5 +1,6 @@
 package com.example.lab4
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.RadioButton
@@ -11,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.lab4.databinding.ActivitySecBinding
 
+@SuppressLint("SetTextI18n")
 class SecActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySecBinding;
 
